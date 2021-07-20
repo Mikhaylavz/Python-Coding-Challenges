@@ -1,0 +1,10 @@
+Challenge set by lllll from edabit
+
+Create a function that takes an angle in radians and
+returns the corresponding angle in degrees rounded to one decimal place
+
+from math import pi
+def radians_to_degrees(rad):
+	degrees = rad*180/pi
+	degrees = round(degrees, 1)
+	return degrees
