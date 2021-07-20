@@ -1,0 +1,13 @@
+Challenge set by AniXDownLoe
+reate a function that takes two arguments: the original price 
+and the discount percentage as integers and returns the final 
+price after the discount.
+
+
+def dis(price, discount):
+	final_price = float(price -(price*(discount/100)))
+	value = round(final_price, 2)
+	return value
+  
+  
+  Challenge set from Edabit
